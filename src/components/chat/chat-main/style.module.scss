@@ -1,0 +1,37 @@
+.main {
+	flex-grow: 1;
+	padding-inline: 30px;
+	padding-block: 20px;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	
+	@media (max-width: 800px) {
+		padding-inline: 15px;
+	}
+}
+.messageSender {
+	align-self: flex-end;
+	p {
+		font-style: italic;
+		text-align: right;
+		color: white;
+	}
+	div {
+		padding: 10px;
+		background-color: #5876b6;
+		border-radius: 15px;
+	}
+}
+.messageRecipient {
+	align-self: flex-start;
+	p {
+		font-style: italic;
+		color: white;
+	}
+	div {
+		padding: 10px;
+		background-color: #696ca0;
+		border-radius: 15px;
+	}
+}
