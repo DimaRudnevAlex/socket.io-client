@@ -6,7 +6,7 @@ import cl from "./style.module.scss"
 import ChatMain from "../../components/chat/chat-main/chat-main.jsx";
 import ChatFooter from "../../components/chat/chat-footer/chat-footer.jsx";
 
-const socket = io.connect('http://localhost:5000');
+const socket = io.connect('https://rudchat.onrender.com');
 
 const ChatPage = () => {
 	const [searchParams] = useSearchParams()
